@@ -18,6 +18,8 @@ namespace DeepSpace.Local
             //data stored in the Player's key, however for now we can just
             //hardcode the values for this.
 
+            //TODO: Implement an object serialisation process for saving and loading encrypted Client data.
+
             m_client = new Client("Sam", 716838382799);
             
             m_reader = transform.GetComponent<ClientInputReader>();

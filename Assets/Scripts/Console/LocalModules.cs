@@ -4,7 +4,7 @@ using System;
 namespace DeepSpace.Console
 {
 	/// <summary>
-	/// Defines a module execution method to be run locally. Method must return a string.
+	/// Defines a module execution method to be run locally. Return type must be string.
 	/// </summary>
 	[AttributeUsage(AttributeTargets.Method)]
 	public class LocalModuleAttribute : Attribute
